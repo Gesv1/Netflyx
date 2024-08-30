@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Seguro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('assets/background.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+
+        .logo-canto-esquerdo {
+            position: fixed;
+            top: 0;
+            left: 0;
+            margin: 10px;
+            width: 250px;
+        }
+
+        .styled-button-top-right {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: calc(0.25rem - 0.0625rem);
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .language-box {
+            position: fixed;
+            top: 10px;
+            right: 130px;
+            padding: 5px 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border-radius: 0.25rem;
+            font-size: 0.875rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .title-container {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+        }
+
+        h1.default-ltr-cache-jmnaey.euy28770 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        p.default-ltr-cache-lwezpj.euy28770 {
+            font-size: 1.25rem;
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+
+        .styled-button {
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: calc(0.25rem - 0.0625rem);
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            margin-right: 10px;
+        }
+
+        .email-input {
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            border-radius: calc(0.25rem - 0.0625rem);
+            width: 300px;
+            margin-top: 20px;
+        }
+
+        .default-ltr-cache-1rm25m1-StyledContainer {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 20px;
+            background: rgba(64, 64, 128, 1);
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            width: 80%;
+            max-width: 800px;
+            z-index: 10;
+        }
+
+        .default-ltr-cache-1rm25m1-StyledContainer p {
+            margin: 10px 0;
+            font-size: 1.25rem;
+        }
+
+        .info-box {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: rgba(128, 128, 128, 0.8);
+            color: white;
+            border-radius: 5px;
+            display: inline-block;
+            position: relative;
+            z-index: 20;
+        }
+
+        .info-box a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .info-box a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            h1.default-ltr-cache-jmnaey.euy28770 {
+                font-size: 1.8rem;
+            }
+
+            p.default-ltr-cache-lwezpj.euy28770 {
+                font-size: 1rem;
+            }
+
+            .styled-button, .email-input {
+                width: 100%;
+                margin-top: 10px;
+                display: block;
+            }
+
+            .default-ltr-cache-1rm25m1-StyledContainer {
+                width: 95%;
+                padding: 15px;
+            }
+
+            .info-box {
+                margin-top: 10px;
+                padding: 8px 15px;
+            }
+        }
+    </style>
+</head>
+<body class="bg_filmes">
+   <div class="container-fluid">
+       <header class="row">
+           <img src="assets/Netflix_Logo_RGB.png" class="logo-canto-esquerdo" alt="Netflix Logo" />
+       </header>
+       <div class="title-container">
+           <h1 class="default-ltr-cache-jmnaey euy28770">Filmes, séries e muito mais, sem limites</h1>
+           <p class="default-ltr-cache-lwezpj euy28770">3 meses a partir de R$ 15,90. Cancele quando quiser.</p>
+           <input type="email" placeholder="Digite seu e-mail" class="email-input" aria-label="Digite seu e-mail">
+           <a href="https://go.tribopay.com/mbxxo" class="styled-button">
+               Vamos Lá
+           </a>
+       </div>
+
+       <a href="https://go.tribopay.com/mbxxo" class="styled-button-top-right default-ltr-cache-1wafeu3-PressableAnchor-StyledPressable-StyledPressable">
+           Entrar
+       </a>
+
+       <div class="language-box">
+           Português
+       </div>
+   </div> 
+
+   <div class="default-ltr-cache-1rm25m1-StyledContainer">
+       <p>Oferta especial! 3 meses por R$ 15,90</p>
+       <p>Apenas hoje, aproveite nosso plano com desconto!</p>
+       <div class="info-box">
+           <a href="https://go.tribopay.com/mbxxo">Saiba mais</a>
+       </div>
+   </div>
+</body>
+</html>
